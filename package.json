@@ -4,7 +4,7 @@
   "description": "Example of inversify with express-validator",
   "author": "Gurkan Demir",
   "scripts": {
-    "start": "ts-node index.ts"
+    "start": "ts-node src/index.ts"
   },
   "dependencies": {
     "express": "^4.18.2",

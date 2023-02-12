@@ -1,8 +1,8 @@
 import {Container} from "inversify";
-import {PayController} from "./src/controller/pay-controller";
-import {RequestValidator} from "./src/middleware/request-validator";
-import {RefundController} from "./src/controller/refund-controller";
-import {QueryController} from "./src/controller/query-controller";
+import {PayController} from "./controller/pay-controller";
+import {RequestValidator} from "./middleware/request-validator";
+import {RefundController} from "./controller/refund-controller";
+import {QueryController} from "./controller/query-controller";
 
 let container = new Container();
 
